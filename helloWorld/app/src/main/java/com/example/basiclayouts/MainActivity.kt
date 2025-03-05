@@ -52,7 +52,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         )
 
         Text(
-            text = "Tugas 1",
+            text = "Tugas 2",
             fontSize = 24.sp,
             modifier = Modifier.padding(bottom=12.dp)
         )
@@ -72,6 +72,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     BasicLayoutsTheme {
-        Greeting("Android")
+        Greeting("Daniel")
     }
 }
