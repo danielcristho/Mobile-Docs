@@ -58,7 +58,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         )
 
         Text(
-            text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            text = "Mobile Programming.",
             fontSize = 18.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier.padding(start = 18.dp, end = 18.dp)
