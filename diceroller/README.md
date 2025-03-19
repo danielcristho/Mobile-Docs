@@ -6,7 +6,7 @@ Result:
 
 Modification:
 
-- Changed the dice color to red.
+- Changed the dice color to white & green.
 - Added a description for each dice roll outcome.
 
 ```kt
