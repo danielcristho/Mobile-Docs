@@ -82,6 +82,6 @@ fun GreetingPreview() {
 }
 ```
 
-Final result:
+Result:
 
 ![Final result](./assest/result.png)
