@@ -30,8 +30,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingText(
-                        message = "Happy Birthday Sam!",
-                        from = "From Emma",
+                        message = "Happy Birthday Anneleis!",
+                        from = "From Minke",
                         modifier = Modifier.padding(8.dp)
                     )
                 }
@@ -66,6 +66,6 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
 @Composable
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
-        GreetingText(message = "Happy Birthday Sam!", from = "From Emma")
+        GreetingText(message = "Happy Birthday Minke!", from = "From Anneleis")
     }
 }
