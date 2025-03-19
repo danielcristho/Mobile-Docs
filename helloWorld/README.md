@@ -1,3 +1,8 @@
+# Jetpack Compose Basics
+
+Modification `MainActivity.kt`:
+
+```kt
 package com.example.basiclayouts
 
 import android.os.Bundle
@@ -75,3 +80,8 @@ fun GreetingPreview() {
         Greeting("Daniel")
     }
 }
+```
+
+Final result:
+
+![Final result](./assest/result.png)
