@@ -1,21 +1,15 @@
-package com.example.happybirthday
+# Build a simple app with text composables
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import com.example.happybirthday.ui.theme.HappyBirthdayTheme
+First result:
 
+![First result](./assets/first-result.png)
+
+Modification:
+
+- Added "From" Input Field. Users can now enter their name as the sender of the greeting.
+- Button changes the message to "Wishing You a Wonderful Year!" when clicked.
+
+```kt
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -110,3 +104,8 @@ fun TextInputField(label: String, value: String, onValueChange: (String) -> Unit
         }
     )
 }
+```
+
+Final result:
+
+![Final result](./assets/final-result.gif)
