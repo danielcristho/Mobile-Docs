@@ -6,6 +6,6 @@ First result
 
 Final result
 
-![Final](./assets/final-result.png)
+![Final Demo](https://github.com/user-attachments/assets/d2e26529-4a80-42a5-ad0a-c8426e918705)
 
-![Final Demo](./assets/demo.gif)
+![Final](./assets/final-result.png)
