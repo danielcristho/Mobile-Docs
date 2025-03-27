@@ -4,8 +4,13 @@ First result
 
 ![First](./assets/first-result.png)
 
+Modifications:
+
+- change primary colour to teal
+- store text in `res/values/strings.xml` for easy changes without editing the code directly
+
 Final result
 
-![Final Demo](https://github.com/user-attachments/assets/d2e26529-4a80-42a5-ad0a-c8426e918705)
+![Final Demo](./assets/demo.gif)
 
-![Final Result](https://github.com/user-attachments/assets/a1fb19a8-4c4d-413e-9fd1-fcebb54ec278)
+Based on: [https://developer.android.com/codelabs/jetpack-compose-basics?hl=id#0](https://developer.android.com/codelabs/jetpack-compose-basics?hl=id#0)

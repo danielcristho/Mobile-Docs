@@ -74,7 +74,7 @@ fun OnboardingScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Welcome to the Basics Codelab!")
+        Text("Hello World!\uD83D\uDC4B")
         Text("Mobile Programming Course")
         Button(
             modifier = Modifier
@@ -138,18 +138,16 @@ private fun CardContent(name: String) {
             )
             if (expanded) {
                 Text(
-                    text = ("Sapardi Djoko Damono\n\n" +
-                            "**Hujan Bulan Juni**\n" +
-                            "Tak ada yang lebih tabah\n" +
-                            "dari hujan bulan Juni,\n" +
-                            "dirahasiakannya rintik rindunya\n" +
-                            "kepada pohon berbunga itu.\n\n" +
-                            "*Rain in June*\n" +
-                            "Nothing is more patient\n" +
-                            "than the rain in June,\n" +
-                            "hiding its longing drizzle\n" +
-                            "from the flowering trees.\n\n").repeat(2),
+                    text = stringResource(id = R.string.poem_title),
+                    style = MaterialTheme.typography.headlineMedium
                 )
+                Text(text = stringResource(id = R.string.poem_content) + "\n")
+
+                Text(
+                    text = stringResource(id = R.string.poem_title_en),
+                    style = MaterialTheme.typography.headlineMedium
+                )
+                Text(text = stringResource(id = R.string.poem_content_en))
             }
         }
         IconButton(onClick = { expanded = !expanded }) {
