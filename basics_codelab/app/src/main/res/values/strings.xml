@@ -1,0 +1,34 @@
+<!--
+  Copyright 2021 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+  in compliance with the License. You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software distributed under the License
+  is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+  or implied. See the License for the specific language governing permissions and limitations under
+  the License.
+  -->
+<resources>
+    <string name="app_name">BasicsCodelab</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+
+    <string name="poem_title">Hujan Bulan Juni</string>
+    <string name="poem_content"><![CDATA[
+        Tak ada yang lebih arif
+        Dari hujan bulan Juni
+        Dibiarkannya yang tak terucapkan
+        Diserap akar pohon bunga itu.
+    ]]></string>
+
+    <string name="poem_title_en">Rain in June</string>
+    <string name="poem_content_en"><![CDATA[
+        Nothing is wiser
+        Than the rain in June
+        It lets the unspoken words
+        Be absorbed by the roots of the flowering tree.
+    ]]></string>
+</resources>
