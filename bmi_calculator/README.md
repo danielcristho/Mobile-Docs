@@ -336,4 +336,6 @@ fun CategoryIndicator(
 
 Result:
 
+![Final Result](./assets/result.gif)
+
 > Reference: [medium.com](https://medium.com/@shivamkadam0709/how-to-make-a-bmi-calculator-in-jetpack-compose-7be33bf87f90)
