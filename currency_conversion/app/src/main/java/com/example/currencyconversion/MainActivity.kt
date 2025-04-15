@@ -295,7 +295,6 @@ fun getExchangeRate(from: String, to: String): Double {
     return rateFrom / rateTo
 }
 
-// Fungsi konversi yang dioptimalkan
 fun convertCurrency(amount: Double, from: String, to: String): Double {
     // Jika mata uang sama, tidak perlu konversi
     if (from == to) return amount
