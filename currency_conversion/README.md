@@ -1,3 +1,34 @@
+# Currency Converter
+
+A simple Android currency conversion app built with Jetpack Compose.
+
+- Convert between 10 world currencies (IDR, USD, EUR, JPY, SGD, AUD, GBP, CHF, CAD, CNY)
+
+- Based on IDR (Indonesian Rupiah):
+
+    USD: 16,823
+
+    EUR: 19,150
+
+    JPY: 117.06
+
+    SGD: 12,570
+
+    AUD: 11,350
+
+    GBP: 22,450
+
+    CHF: 19,750
+
+    CAD: 12,400
+
+    CNY: 2,418
+
+## Modifications
+
+`MainActivity.kt`:
+
+```kt
 package com.example.currencyconversion
 
 import android.os.Bundle
@@ -307,3 +338,8 @@ fun convertCurrency(amount: Double, from: String, to: String): Double {
     val amountInIDR = amount * rateFrom
     return amountInIDR / rateTo
 }
+```
+
+## Final Result:
+
+![Demo](./assets/result.gif)
