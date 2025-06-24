@@ -4,7 +4,7 @@ First result:
 
 ![First result](./assets/first-result.png)
 
-Modification:
+Modifications:
 
 - Added "From" Input Field. Users can now enter their name as the sender of the greeting.
 - Button changes the message to "Wishing You a Wonderful Year!" when clicked.
