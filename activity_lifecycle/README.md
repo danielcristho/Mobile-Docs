@@ -354,3 +354,6 @@ fun MyDessertClickerAppPreview() {
 }
 ```
 
+## Final Result
+
+![Demo](./assets/demo.gif)

@@ -78,7 +78,6 @@ fun LoginScreen(navController: NavController) {
         // Tombol Login
         Button(
             onClick = {
-                // Untuk contoh ini, kita langsung navigasi ke home screen
                 navController.navigate(Screen.Home.route) {
                     // Membersihkan back stack agar tidak bisa kembali ke login
                     popUpTo(Screen.Login.route) { inclusive = true }

@@ -8,6 +8,8 @@
 - [Task 6: Create Login page](./login_page/README.md)
 - [Task 7: Woof Material](./woof_material/README.md)
 - [Task 8: Dessert Clicker: Android Activity Lifecycle](./activity_lifecycle/README.md)
-- [Task 9: Unscramble Word App: ViewModel and State in Compose]()
+- [Task 9: Unscramble Word App: ViewModel and State Flow in Android](./viewmodel-and-state/README.md)
+- [Task 10: Authentication App](./starbuck_clone/README.md)
+- [Midterm & Final Project: Personal Finance Tracking App](https://github.com/chrstdan19/monee)
 
 > All the projects above follow the guidelines from [Android Codelabs](https://developer.android.com/get-started/codelabs).
