@@ -10,6 +10,6 @@
 - [Task 8: Dessert Clicker: Android Activity Lifecycle](./activity_lifecycle/README.md)
 - [Task 9: Unscramble Word App: ViewModel and State Flow in Android](./viewmodel-and-state/README.md)
 - [Task 10: Authentication App](./starbuck_clone/README.md)
-- [Midterm & Final Project: Personal Finance Tracking App](https://github.com/chrstdan19/monee)
+- [Midterm & Final Project: Personal Finance Tracker](https://github.com/chrstdan19/monee)
 
 > All the projects above follow the guidelines from [Android Codelabs](https://developer.android.com/get-started/codelabs).
